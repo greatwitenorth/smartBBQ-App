@@ -14,6 +14,17 @@ Clone this repo and install dependencies:
 git clone git@github.com:greatwitenorth/smartBBQ-App.git
 cd smartBBQ-App
 npm install
+```
+
+If you're on OS X you can build for iOS:
+```bash
+ionic platform add ios
+ionic build ios
+ionic emulate ios
+```
+
+Or you can just run the app in a web browser:
+```bash
 ionic serve
 ```
 

@@ -4,3 +4,9 @@
 node_modules/
 platforms/
 plugins/
+
+# IDE Stuff
+.idea/
+
+# Mac stuff
+.DS_Store

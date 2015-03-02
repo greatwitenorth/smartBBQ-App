@@ -1,0 +1,12 @@
+{
+  "name": "smartBBQ",
+  "app_id": "5504df12",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

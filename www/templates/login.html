@@ -1,0 +1,21 @@
+<!-- <ion-view hide-nav-bar="true"></ion-view> -->
+<ion-view view-title="Login" ng-show="show()">
+  <ion-content>
+    <form ng-submit="login()" class="login">
+      <div class="list list-inset">
+        <div style="text-align: center; margin: 60px 0; font-size: 18px;font-weight: 300">
+        <i class="icon ion-flame" style="color:#FC6060;font-size: 75px;"></i><br>
+        SmartBBQ
+        </div>
+        <label class="item item-input">
+          <input type="email" ng-model="loginData.username" placeholder="Spark.io Email">
+        </label>
+        <label class="item item-input">
+          <input type="password" ng-model="loginData.password" placeholder="Password">
+        </label>
+        <button class="button button-block button-outline button-positive" type="submit" style="margin-top: 40px;">Log in</button>
+      </div>
+
+    </form>
+  </ion-content>
+</ion-view>

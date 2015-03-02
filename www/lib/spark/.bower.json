@@ -1,0 +1,40 @@
+{
+  "author": "Spark",
+  "name": "spark",
+  "version": "0.2.6",
+  "main": "dist/spark.min.js",
+  "homepage": "http://spark.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spark/sparkjs"
+  },
+  "contributors": [
+    "edgarsilva <edgar.osc@gmail.com>",
+    "solojavier"
+  ],
+  "description": "Official Spark cloud API library",
+  "keywords": [
+    "spark",
+    "sparkjs",
+    "spark-core",
+    "core"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.6",
+    "commit": "d40f0f3b92ef020ac9170a8036749bfb14af3fda"
+  },
+  "_source": "git://github.com/spark/sparkjs.git",
+  "_target": "~0.2.6",
+  "_originalSource": "spark",
+  "_direct": true
+}

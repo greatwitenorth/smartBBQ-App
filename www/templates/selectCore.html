@@ -1,0 +1,13 @@
+<ion-modal-view>
+	<ion-header-bar>
+	  <h1 class="title">Select your core</h1>
+	</ion-header-bar>
+	<ion-content>		
+		<p class="padding hide">All your SmartBBQ are listed below. Please select which one you'd like to control. If you don't see it here, make sure you have the latest SmartBBQ firmware uploaded to your core.</p>
+		<ion-list>
+		  <ion-item ng-repeat="core in cores" ng-click="setCore(core)">
+		    {{ core.name }} <span class="circle online"></span>
+		  </ion-item>
+		</ion-list> 	
+	</ion-content>
+</ion-modal-view>
